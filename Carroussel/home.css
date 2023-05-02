@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carousel-container {}
+
+.tile{
+    position: fixed;
+    top: 50%;
+    transform: translate(60vw, -50%) scale(.6);
+    
+    background-color: white;
+    height: 700px;
+    width: 700px;
+    
+    opacity: 0;
+    transition: 1s;
+    z-index: 0;
+}
+
+.tile-content{
+    width: 630px;
+    height: 650px;
+    margin: 25px 35px;
+}
+
+.tile-image {
+    height: 500px;
+    margin-bottom: 25px;
+
+    background-size: cover;
+    background-position: 65% center;
+    background-repeat: no-repeat;
+}
+
+.tile-text{
+    height: 125px;
+    font-size: 21px;
+}
+
+.tile.previous-hide{
+    transform: translate(-100vw, -50%) scale(.6);
+}
+
+.tile.previous{
+    opacity: .5;
+    transform: translate(calc(-50vw + -40%), -50%) scale(.8);
+}
+
+.tile.current{
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.tile.next {
+    opacity: .5;
+    transform: translate(calc(50vw + -60%), -50%) scale(.8);
+}
