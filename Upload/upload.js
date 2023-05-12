@@ -36,11 +36,3 @@ $('form').submit(function (e) {
     }
   });
 });
-
-// $(document).ready(function() {
-//   var languages = ["William", "Lívia"];
-
-//   $("#user-name-input").autocomplete({
-//     source: languages
-//   });
-// });
