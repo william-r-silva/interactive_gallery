@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    background-image: url("../Assets/background-upload.jpg");
+    background-image: url("/background-upload.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
