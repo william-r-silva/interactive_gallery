@@ -7,8 +7,15 @@ html{
     background-image: url('https://i.pinimg.com/originals/03/d1/ff/03d1ff9e5d74945780928c8b4ad20787.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 body {
     overflow: hidden;
+}
+
+@media screen and (width < 750px) {
+    html{
+        background-size: contain;
+    }
 }
