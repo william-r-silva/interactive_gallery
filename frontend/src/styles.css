@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: url('https://i.pinimg.com/originals/03/d1/ff/03d1ff9e5d74945780928c8b4ad20787.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    overflow: hidden;
+}
