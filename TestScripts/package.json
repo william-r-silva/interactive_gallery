@@ -1,0 +1,14 @@
+{
+  "name": "interactive_galery",
+  "version": "1.0.0",
+  "description": "A Interactive Galery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Rocha Silva",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}
